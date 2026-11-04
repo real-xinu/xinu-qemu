@@ -4,7 +4,7 @@ set -euo pipefail
 OS=$(uname -s)
 ARCH=$(uname -m)
 VERSION="v1.0"
-BASE_URL="https://github.com/theopn/xinu-i386-qemu/releases/download/$VERSION"
+BASE_URL="https://github.com/real-xinu/xinu-qemu/releases/download/$VERSION"
 
 if [ -n "${XINU_SKIP_PREBUILT_TOOLCHAIN:-}" ]; then
   echo "XINU_SKIP_PREBUILT_TOOLCHAIN environment is set."
