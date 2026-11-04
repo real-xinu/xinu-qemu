@@ -27,8 +27,8 @@ Builds on the Windows file system (`/mnt/c`) are much slower and can cause error
 
 ```sh
 cd ~
-git clone https://github.com/theopn/xinu-i386-qemu.git
-cd xinu-i386-qemu/compile
+git clone https://github.com/real-xinu/xinu-qemu.git
+cd xinu-qemu/compile
 ```
 
 You are now in the `compile` directory. Stay here for the remaining steps.
@@ -61,15 +61,15 @@ Once it starts, type help to see the available commands.
 
 ## Editing and Rebuilding
 
-Your files live inside WSL at `~/xinu-i386-qemu`.
+Your files live inside WSL at `~/xinu-qemu`.
 Two ways to edit them:
 
 - VS Code: install VS Code and its WSL extension.
     Then, in the WSL terminal window, run
     ```sh
-    code ~/xinu-i386-qemu
+    code ~/xinu-qemu
     ```
-- Windows File Explorer: type `\\wsl$\Ubuntu\home\<your-username>\xinu-i386-qemu` into the address bar. (Replace `<your-username>`.)
+- Windows File Explorer: type `\\wsl$\Ubuntu\home\<your-username>\xinu-qemu` into the address bar. (Replace `<your-username>`.)
 
 After editing, navigate back to the `compile` directory, then:
    - If you only edited existing files: `make`

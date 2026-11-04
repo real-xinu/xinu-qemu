@@ -23,8 +23,8 @@ docker compose version
 
 ```sh
 cd ~
-git clone https://github.com/theopn/xinu-i386-qemu.git
-cd xinu-i386-qemu
+git clone https://github.com/real-xinu/xinu-qemu.git
+cd xinu-qemu
 ```
 
 You should now be in the top (base) directory of the repository, the one that contains `docker-compose.yml`.

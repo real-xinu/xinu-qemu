@@ -25,8 +25,8 @@ If you have an Intel Mac, use the Docker guide instead.
 
 ```sh
 cd ~
-git clone https://github.com/theopn/xinu-i386-qemu.git
-cd xinu-i386-qemu/compile
+git clone https://github.com/real-xinu/xinu-qemu.git
+cd xinu-qemu/compile
 ```
 
 You are now in the `compile` directory. Stay here for the remaining steps.
