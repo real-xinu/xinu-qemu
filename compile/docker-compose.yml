@@ -1,9 +1,12 @@
+name: xinu
+
 services:
   xinu-compile:
     build: .
     environment:
       - USER=${USER:-unknown_user}
     volumes:
-      - .:/xinu:Z
+      - ..:/xinu:Z
+    working_dir: /xinu/compile
     stdin_open: true
     tty: true

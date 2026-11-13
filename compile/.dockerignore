@@ -1,0 +1,4 @@
+# `compile` directory might have a lot of binaries due to `.toolchain`.
+# Since our Docker image doesn't depend on any of the Xinu source,
+# exclude everything from the Docker build context
+*

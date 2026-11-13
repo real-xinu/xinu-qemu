@@ -24,10 +24,10 @@ docker compose version
 ```sh
 cd ~
 git clone https://github.com/real-xinu/xinu-qemu.git
-cd xinu-qemu
+cd xinu-qemu/compile
 ```
 
-You should now be in the top (base) directory of the repository, the one that contains `docker-compose.yml`.
+You should now be in the `compile` directory, the one that contains `docker-compose.yml`.
 
 ## Step 3: Build and start the container
 
@@ -53,7 +53,6 @@ Your repository is shared with the container, so edits you make in your normal e
 Inside the container:
 
 ```sh
-cd compile
 make clean && make
 ```
 
